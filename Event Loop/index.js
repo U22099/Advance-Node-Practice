@@ -67,7 +67,7 @@ const asyncForLoopFunc = () => {
   console.time("program");
 
   const asyncLoop = (i, arr) => {
-    if (i >= 10000000) {
+    if (i >= 100000000) {
         console.timeEnd("program");
         return;
     };
